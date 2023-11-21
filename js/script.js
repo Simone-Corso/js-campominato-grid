@@ -6,4 +6,7 @@
 
 //Inizio con l'inserire una variabile dove poi mettere gli elementi che voglio mettere dentro
 
-    const mainSection = document.querySelector(campominato);
+    const mainSection = document.querySelector(section.campominato);
+
+//Andrò inserire una variabile per creare una cella 
+    const nuovaCella = GetNewSquare();
