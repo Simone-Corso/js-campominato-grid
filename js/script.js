@@ -10,3 +10,6 @@
 
 //Andrò inserire una variabile per creare una cella 
     const nuovaCella = GetNewSquare();
+
+//Creo un ciclo con una iterazione per 100 volte
+    for (let i = 1 ; i <=100 ; i++);
