@@ -27,6 +27,16 @@ section.campominato{
     border: solid 2px green;
 }
 
+/*ho inserito qua già il calcolo, ma poi verrà completato nel JS*/
+section.campominato article{
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: solid 2 px magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     background-color: bisque;
     height: 80px;
