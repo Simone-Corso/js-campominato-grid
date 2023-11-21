@@ -17,6 +17,16 @@ main{
     border: solid 2 px red;
 }
 
+section.campominato{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid 2px green;
+}
+
 footer{
     background-color: bisque;
     height: 80px;
