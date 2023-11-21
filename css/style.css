@@ -1,5 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    
+
+}
+
+header{
+    background-color: antiquewhite;
+    height: 80px;
+    border: solid 2px red;
+}
+
+main{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    border: solid 2 px red;
+}
+
+footer{
+    background-color: bisque;
+    height: 80px;
+    width: 100%;
+    border: solid 2px red;
 }
