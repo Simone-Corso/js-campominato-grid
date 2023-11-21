@@ -15,15 +15,15 @@ main{
     width: 100%;
     background-color: aquamarine;
     border: solid 2 px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.campominato{
     background-color: blue;
     height: 500px;
     width: 500px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     border: solid 2px green;
 }
 
