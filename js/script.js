@@ -6,7 +6,12 @@
 
 //Inizio con l'inserire una variabile dove poi mettere gli elementi che voglio mettere dentro
 
-    const mainSection = document.querySelector('main section.campominato');
+    const mainSectionEl = document.querySelector('main section.main-contenuto');
+    console.log(mainSectionEl);
+//creo un altro elemento per button
+
+    const inizioButtonEl = document.querySelector ('button#inizio-gioco'); 
+    console.log(inizioButtonEl);   
 
 
 
