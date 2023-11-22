@@ -15,7 +15,8 @@
     
 //creo una variabile per variare la difficoltà del gioco
 
-    
+    const difficultyEl = document.querySelector('select#select-difficulty');
+    console.log(difficultyEl);
 
 
 
