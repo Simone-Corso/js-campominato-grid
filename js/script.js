@@ -10,17 +10,3 @@
 
 
 
-//Creo un ciclo con una iterazione per 100 volte
-    for (let i = 1 ; i <=100 ; i++){
-
-        //Andrò inserire una variabile per creare una cella 
-    const nuovaCella = GetNewSquare();
-    console.log(GetNewSquare);
-
-//inserisco il suo 'i' che fa a riferimento al codie 14
-0 
-        const nuovoContenuto = i;
-        
-
-
-    }
