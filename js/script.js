@@ -18,5 +18,37 @@
     const difficultyEl = document.querySelector('select#select-difficulty');
     console.log(difficultyEl);
 
+//adesso creo un evento di click con una funzione
+    inizioButtonEl-addEventListener('click', function(){
+        generateNewGame(mainSectionEl,difficultyEl);
+        console.log(inizioButtonEl);
+    });
 
+//function per generare il nuovo gioco
+    function generateNewGame(wrapperElement, LevelSelector){
+        wrapperElement.innerHTML = '';
 
+        const level = parseInt(LevelSelector.value);
+
+        let cellsNo;
+
+        switch (level){
+            case 0:
+
+            default: cellsNo = 100;
+            break;
+
+            case 1:
+
+             cellsNo = 81;
+            break;
+
+            case 2:
+
+            cellsNo = 49;
+            break;
+        
+        }
+
+        let cellsPerRow = Math.sqrt(cellsNo);
+}
