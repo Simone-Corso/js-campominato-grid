@@ -11,7 +11,11 @@
 //creo un altro elemento per button
 
     const inizioButtonEl = document.querySelector ('button#inizio-gioco'); 
-    console.log(inizioButtonEl);   
+    console.log(inizioButtonEl);  
+    
+//creo una variabile per variare la difficoltà del gioco
+
+    
 
 
 
